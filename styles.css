@@ -20,9 +20,9 @@ body {
     max-width: 400px;
     border: 10px solid rgba(37, 35, 35, 0.662);
     animation-name: rotate;
-    animation-duration: 25s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
 .square {
